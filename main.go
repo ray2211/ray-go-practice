@@ -21,6 +21,8 @@ type Student struct {
 	SubjectScores []SubjectScore
 }
 
+var studentCount int = 0
+
 var students []Student
 
 func main() {
